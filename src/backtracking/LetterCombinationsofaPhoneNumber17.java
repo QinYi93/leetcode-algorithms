@@ -11,11 +11,11 @@ import java.util.List;
  */
 public class LetterCombinationsofaPhoneNumber17 {
     public static void main(String[] args) {
-        System.out.println(letterCombinations("23"));
+        System.out.println(letterCombinations("9"));
     }
 
     static String[] maping = new String[]{"0", "1", "abc", "def", "ghi", "jkl", "mno", "pqrs",
-            "tuv", " wxyz"};
+            "tuv", "wxyz"};
 
     public static List<String> letterCombinations(String digits) {
         List<String> res = new ArrayList<>();
