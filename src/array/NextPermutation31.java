@@ -3,6 +3,8 @@ package array;
 /**
  * This class
  * find the rule !!!
+ * time: O(n)
+ * space: O(1)
  * @author Yi Qin
  * @date 2018-04-23
  */
