@@ -5,7 +5,15 @@ import java.util.Timer;
 
 /**
  * This class problem of 146
+ * - get - have        update the sequence -- tail, head, middle
+ *       \ don't have  -1
  *
+ * - put - capacity == 0  remove the last unfrequency element
+ *                        have        update value & update sequence as get
+ *                        don't have  add element   1. head & tail don't exist  2. add after original tail
+ *
+ * data structure: in order to achieve O(1); 1. use 双向链表 （Arraylist 删除插入时候不是O(1), linklist的是，但是单项链表不能实现插入删除都是O(1)）
+ *                                           2. hashmap & node
  * @author Yi Qin
  * @date 2018-05-01
  */
