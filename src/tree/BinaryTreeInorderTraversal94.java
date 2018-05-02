@@ -4,7 +4,7 @@ import java.util.*;
 
 /**
  * This class
- *
+ * BST 二叉搜索树中 中序遍历的时候结果是升序的 stack 的方法非常有用！！！
  * @author Yi Qin
  * @date 2018-03-08
  */
