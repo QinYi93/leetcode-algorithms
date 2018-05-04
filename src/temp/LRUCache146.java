@@ -17,7 +17,7 @@ import java.util.Timer;
  * @author Yi Qin
  * @date 2018-05-01
  */
-public class LRUCache {
+class LRUCache {
     HashMap<Integer, Node> map = new HashMap<>();
     int capacity;
     Node head;
