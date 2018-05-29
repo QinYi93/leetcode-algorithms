@@ -11,7 +11,7 @@ import java.util.List;
  */
 public class ExpressionAddOperators282 {
     public static void main(String[] args) {
-        List<String> output = addOperators("00", 0);
+        List<String> output = addOperators("105", 5);
         for (String i: output){
             System.out.println(i);
         }
@@ -38,7 +38,7 @@ public class ExpressionAddOperators282 {
                 helper(res, path + cur, num, target, i + 1, cur, cur);
             else {
                 helper(res, path + "+" + cur, num, target, i + 1, val + cur, cur);
-                helper(res, path + "-" + cur, num, target, i + 1, val - cur, cur);
+                helper(res, path + "-" + cur, num, target, i + 1, val - cur, -cur);
                 helper(res, path + "*" + cur, num, target, i + 1, val - pre + pre * cur, cur * pre);
             }
         }
